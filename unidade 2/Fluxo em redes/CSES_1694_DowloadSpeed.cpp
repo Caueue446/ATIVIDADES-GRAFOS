@@ -61,9 +61,6 @@ long long findMaxFlow(int src, int sink, int n) {
 }
 
 int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-
     int n, m;
     if (!(cin >> n >> m)) return 0;
 
